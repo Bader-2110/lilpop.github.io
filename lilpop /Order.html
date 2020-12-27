@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Flavours</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+    <div class="wrapper">
+      <div class="logo">
+        <a href="Home.html">
+          <img src="images /Logo.png" width="35" height="35" alt="Logo Here">
+        </a>
+      </div>
+<ul class="nav-area">
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Flavour.html">Flavours</a></li>
+  <li><a class="current" href="Order.html">Order</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+</ul>
+<div class="insta">
+  <a href="https://instagram.com/lilpop.bh?igshid=1tr8mjel9cirs">
+  <img class="resposive" alt="Lil' Pop Instagram Acount" src="images /insta.png" width="35" height="35" >
+  </a>
+</div>
+</div>
+<div class="welcome-text">
+        <h1>
+Order <span>Now</span></h1>
+    </div>
+    <table class="orderTable">
+		<tr>
+			<td valign="bottom"><img src="images /box.png" width=100 height=100> </td>
+			<td valign="bottom"><img src="images /box.png" width=150 height=150 </td>
+			<td valign="bottom"><img src="images /box.png" width=200 height=200></td
+		</tr>
+		<tr>
+			<td ><h3>Lil' Box</h3></td>
+			<td><h3>Family Box</h3></td>
+			<td><h3>Party Box</h3></td>
+		</tr>
+	</table>
+    <section class="Order">
+    <div class="contactUS">
+    <div class="container">
+
+    <div class="OrderForm">
+      <form method="post" action="Form.php">
+        <div class="inputBox">
+          <input type="text" name="name" required="required">
+          <span>Full Name</span>
+        </div>
+        <div class="inputBox">
+          <input type="text" name="mobile" required="required">
+          <span>Phone Number</span>
+        </div>
+        <div class="inputBox">
+          <textarea type="text" name="address" required="required"></textarea>
+          <span>Address</span>
+        </div>
+        <h2>Date of delivery</h2>
+          <div class="inputBox">
+            <input type="date" name="date" required="required">
+            <span>Date</span>
+          </div>
+      <h2>Time of delivery</h2>
+        <div class="inputBox">
+          <input type="time" name="Time" required="required">
+          <span>Time</span>
+        </div>
+        <div id="boxes">
+        <h2>Pick your Box</h2>
+        <div class="orderBox">
+          <label for="box1">Lil' Box</label>
+          <input type="checkbox" id="box1" name="Box" required="required"/>
+        </div>
+        <div class="orderBox">
+          <label for="box2">Family Box</label>
+          <input type="checkbox" id="box2" name="Box" required="required">
+        </div>
+        <div class="orderBox">
+          <label for="box3">Party Box</label>
+          <input type="checkbox" id="box3" name="Box" required="required">
+        </div>
+
+      </div>
+        <h2>Chocolate Pops</h2>
+        <div class="inputBox">
+          <input type="number" name="Choco pop" required="required">
+          <span>Cookie Monster</span>
+        </div>
+        <div class="inputBox">
+          <input type="number" name="Choco pop" required="required">
+          <span>Rocky Road</span>
+        </div>
+        <div class="inputBox">
+          <input type="number" name="Choco pop" required="required">
+          <span>Mello</span>
+        </div>
+        <div class="inputBox">
+          <input type="number" name="Choco pop" required="required">
+          <span>Peanut Blaster</span>
+        </div>
+        <h2>White-Chocolate Pops</h2>
+        <div class="inputBox">
+          <input type="number" name="White-Choco pop" required="required">
+          <span>Cream Caramel</span>
+        </div>
+        <div class="inputBox">
+          <input type="number" name="White-Choco pop" required="required">
+          <span>Zebra</span>
+        </div>
+        <div class="inputBox">
+          <input type="number" name="White-Choco pop" required="required">
+          <span>Frozen</span>
+        </div>
+        <div class="inputBox">
+          <input type="number" name="White-Choco pop" required="required">
+          <span>Pashio</span>
+        </div>
+        <h2>Requests</h2>
+        <div class="inputBox">
+          <textarea type="text" name="request" required="required"></textarea>
+          <span>Special request</span>
+        </div>
+        *Payment Method: Benefit Pay
+        <div class="inputBox">
+        <input type="submit" name="" value="Send">
+        </div>
+      </form>
+    </div>
+    </div>
+    </div>
+    </section>
+</header>
+</body>
+</html>
