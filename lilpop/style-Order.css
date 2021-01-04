@@ -81,43 +81,12 @@ text-decoration-color: #68B5C6;
 .logo img {
 	display: inline-block;
 	position: absolute;
-	width: 45px;
-	height: 45px;
+	width: 35px;
+	height: 35px;
 	top: 3%;
   right: 95%;
   align-items: center;
 
-}
-.company-name {
-	position: absolute;
-	width: 1300px;
-	height: 500px;
-	margin: 20% 25%;
-	text-align: center;
-}
-
-.center-name {
-	position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-70%, -90%);
-	width: 80%;
-}
-
-.slogan {
-	position: absolute;
-	width: 500px;
-	height: 300px;
-	margin: 23% 30%;
-	text-align: center;
-}
-
-.center-slogan {
-	position: absolute;
-	left: 20%;
-	bottom: 20%;
-	transform: translate(30%, -100%);
-	width: 50%;
 }
 
 .insta{
@@ -130,61 +99,23 @@ align-items: center;
 
 .insta img{
 border: 0;
-}
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+width: 35px;
+height: 35px;
 }
 /* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
 }
 
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .title {
   color: grey;
 }
 
-.row {
-	  text-align: center;
-		font-family: poppins;
-		color: #F8F7F2;
-   	display: inline-block;
-	  position: absolute;
-		bottom: 1%;
-		left:25%;
-}
-.Container p{
-	font-size: 14px
-}
-.Container h2{
-	font-size: 20px
-}
 .contactUS{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins';
-}
-.contact{
-	position: relative;
-	min-height: 100vh;
-	padding: 50px 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	transform: translate(-50px,-50px);
-  left: 20%;
-  top: 10%;
 }
 
 .container{
@@ -195,105 +126,10 @@ font-family: 'Poppins';
 	margin-top: 30px;
 }
 
-.container .email{
-	width: 50%;
-	display: flex;
-}
-
-.container .email .box{
-	position: relative;
-	padding: 20px 20px;
-	display: flex;
-}
-
-.container .email .box .icon{
-	min-width: 60px;
-	height: 60px;
-	background: #F8F7F2;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	font-size: 20px;
-}
-.container .email .box .text{
-	display: flex;
-	margin-left: 12px;
-	font-size: 17px;
-	font-family: "Poppins";
-	color: #F8F7F2;
-	font-weight: 300;
-	flex-direction: column;
-}
-.container .email .box .text h3{
-	font-weight: 500;
-	color: #68B5C6;
-}
-.Form{
-	width: 40%;
-	padding: 40px;
-	background: #F8F7F2;
-}
-
-.Form h2 {
-	font-size: 25px;
-	color: #68B5C6;
-	font-weight: 500;
-	font-family: 'Poppins';
-}
-
-.Form .inputBox{
-	position: relative;
-	width: 100%;
-	margin-top: 10px;
-	background: transparent;
-}
-
-.Form .inputBox input,textarea{
-	width: 100%;
-	padding: 5px 0;
-	font-size: 16px;
-	margin: 10px 0;
-	border: none;
-	border-bottom: 2px solid #622E21;
-	outline: none;
-	resize: none;
-
-}
-
-.Form .inputBox span{
-	position: absolute;
-	left: 0;
-	padding: 5px 0;
-	font-size: 16px;
-	margin: 10px 0;
-	pointer-events: none;
-	transition: 0.5s;
-	color: #666;
-	font-family: 'Poppins';
-}
-
-.Form .inputBox input:focus ~ span,
-.Form .inputBox input:valid ~ span,
-.Form .inputBox textarea:focus ~ span,
-.Form .inputBox textarea:valid ~ span{
-	color: #E91E63;
-	font-size: 12px;
-	transform: translateY(-20px);
-}
-.Form .inputBox input[type="submit"]{
-	width: 100px;
-	background: #68B5C6;
-	color: #F8F7F2;
-	border: none;
-	cursor: pointer;
-	padding: 10px;
-	font-size: 18px;
-}
 .orderTable{
 	position: absolute;
 	align-items:center;
-	margin: 17% 35%;
+	margin: 17% 40%;
 	vertical-align: bottom;
 }
 
@@ -388,57 +224,9 @@ font-family: 'Poppins';
 	font-size: 18px;
 }
 
-.video{
-	position: absolute;
-	text-align: center;
-	margin: 20% 33%;
-}
-.Message {
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	margin: 60% 38%;
-	text-align: center;
-}
-.Message a:hover {
-	background: #fff;
-	color: #333;
-}
-.Message a {
-	border: 1px solid #fff;
-	padding: 10px 25px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 14px;
-	margin-top: 20px;
-	display: inline-block;
-	color: #fff;
-}
-
-.welcome-text-order {
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	margin: 60% 18%;
-	text-align: center;
-}
-.welcome-text-order a:hover {
-	background: #fff;
-	color: #333;
-}
-.welcome-text-order a {
-	border: 1px solid #fff;
-	padding: 10px 25px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 14px;
-	margin-top: 20px;
-	display: inline-block;
-	color: #fff;
-}
 
 /*resposive*/
-@media (max-width:1024px) {
+@media screen and (max-width:1000px) {
 	.wrapper {
 		width: 100%;
 	}
@@ -475,55 +263,15 @@ font-family: 'Poppins';
 	.welcome-text h1 {
 		font-size: 30px;
 	}
-.company-name{
-	width: 1000px;
-	height: auto;
-	margin: 70% 0%;
-}
-.slogan{
-	width: 60%;
-	height: auto;
-	margin: 70% 15%;
-}
-.video{
-	width: 100%;
-	margin: 40% 2%;
-}
-.Message {
-	position: absolute;
-	width: 400px;
-	margin: 130% 17%;
-}
-.welcome-text-order{
-	position: absolute;
-	width: 200px;
-	margin: 140% 35%;
-}
-.contact{
-	padding: 100px;
-}
+
 .container{
 	flex-direction: column;
 }
-.box{
-	margin: 10% -120%;
-}
+
 .container .contactUS{
 	margin-bottom: 40px;
 }
-.Form{
-	margin: 10% -120%;
-	margin-left: -600px;
-}
-.container .contactUS,.Form{
-	width: 100%;
-}
-.row h2{
-font-size: 20px
-}
-.row img{
-	width: 300px
-}
+
 .orderTable{
 	position: absolute;
 	align-items:center;
@@ -531,7 +279,7 @@ font-size: 20px
 }
 .Order{
 	position: absolute;
-	margin: -10% -20%;
+	margin: -10% -45%;
 }
 
 }
